@@ -180,7 +180,7 @@ public class ISListActivity extends AppCompatActivity implements View.OnClickLis
                 crop(imageFile.getAbsolutePath());
             } else {
                 Constant.imageList.add(imageFile.getAbsolutePath());
-                config.multiSelect = false; // 多选点击拍照，强制更改为单选
+               // config.multiSelect = false; // 多选点击拍照，强制更改为单选
                 exit();
             }
         }
